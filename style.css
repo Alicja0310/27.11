@@ -9,6 +9,12 @@
     color: black;
 }
 
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -32,5 +38,6 @@ img {
     display: grid;
     grid-template-columns: 30% 70%;
     background-color: rgba(240, 255, 220, 0.705);
-    margin-top: 10px;
+    margin-top: 70px;
 }
+
