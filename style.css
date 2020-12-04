@@ -137,6 +137,7 @@ img {
     background-size: cover;
     width: 350px;
     height: 200px;
+    margin-left: 20px;
 }
 
 .ramka4 {
@@ -171,3 +172,35 @@ img {
     font-size: 20px;
 }
 
+.ramka5 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #e0fde0;
+    padding: 5px;
+    width: 100%;
+    border: 8px solid #97d897;
+    margin-top: 50px;
+}
+
+.tytul7 {
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tekst5 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+}
+
+.zdjecie4 {
+    background-image: url(./img/ts4/the-sims.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
