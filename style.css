@@ -73,3 +73,101 @@ img {
     background-color: #6dff41;
 }
 
+.tytul4 {
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.ramka2 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #e0fde0;
+    padding: 10px;
+    width: 100%;
+    border: 8px solid #97d897;
+    margin-top: 50px;
+}
+
+.tekst2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+}
+
+.zdjecie1 {
+    background-image: url(./img/ts1/klkjg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+}
+
+.ramka3 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #e0fde0;
+    padding: 10px;
+    width: 100%;
+    border: 8px solid #97d897;
+    margin-top: 50px;
+}
+
+.tytul5 {
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tekst3 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+}
+
+.zdjecie2 {
+    background-image: url(./img/ts2/Zrzut\ ekranu\ \(12\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+}
+
+.ramka4 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #e0fde0;
+    padding: 5px;
+    width: 100%;
+    border: 8px solid #97d897;
+    margin-top: 50px;
+}
+
+.zdjecie3 {
+    background-image: url(./img/ts3/ingame_16x9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.tytul6 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.tekst4 {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+}
+
