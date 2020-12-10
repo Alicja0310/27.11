@@ -7,7 +7,7 @@
 
 .buton {
     color: black;
-    width: 250px;
+    width: 350px;
     height: 60px;
     font-size: 30px;
     text-align: center;
@@ -17,11 +17,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-img {
-    width: 100%;
-    height: 100%;
 }
 
 .ramka {
@@ -81,7 +76,7 @@ img {
 
 .ramka2 {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
     background-color: #e0fde0;
     padding: 10px;
     width: 100%;
@@ -96,24 +91,6 @@ img {
     color: rgb(0, 0, 0);
     text-align: left;
     font-size: 20px;
-}
-
-.zdjecie1 {
-    background-image: url(./img/ts1/klkjg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 200px;
-}
-
-.ramka3 {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    background-color: #e0fde0;
-    padding: 10px;
-    width: 100%;
-    border: 8px solid #97d897;
-    margin-top: 50px;
 }
 
 .tytul5 {
@@ -132,22 +109,8 @@ img {
 }
 
 .zdjecie2 {
-    background-image: url(./img/ts2/Zrzut\ ekranu\ \(12\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 200px;
-    margin-left: 20px;
-}
-
-.ramka4 {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    background-color: #e0fde0;
-    padding: 5px;
     width: 100%;
-    border: 8px solid #97d897;
-    margin-top: 50px;
+    height: 100%;
 }
 
 .zdjecie3 {
@@ -172,16 +135,6 @@ img {
     font-size: 20px;
 }
 
-.ramka5 {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    background-color: #e0fde0;
-    padding: 5px;
-    width: 100%;
-    border: 8px solid #97d897;
-    margin-top: 50px;
-}
-
 .tytul7 {
     font-size: 30px;
     margin-left: 10px;
@@ -198,9 +151,18 @@ img {
 }
 
 .zdjecie4 {
-    background-image: url(./img/ts4/the-sims.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row: 10px;
+}
+
+.item1 {
+    width: 250px;
     height: 300px;
 }
