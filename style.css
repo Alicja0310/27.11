@@ -1,6 +1,5 @@
-
 .nawigacja {
-    background-color: #92ff92c9;
+    background-color: #92ff92;
     height: 60px;
     width: 100%;
 }
@@ -50,8 +49,7 @@
 
 .tytul2 {
     font-size: 30px;
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 20px;
 }
 
 .opcje {
@@ -59,9 +57,10 @@
     border-bottom: 3px solid #7fff7f;
     background-color:  #92ff92;
     color: rgba(0, 0, 0, 0.8);
-    width: 295px;
+    width: 260px;
     height: 50px;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 20px;
 }
 
 .btn:hover {
@@ -146,19 +145,17 @@
     font-size: 20px;
 }
 
-.ts1 {
+.ts {
     margin-top: 90px;
     color: black;
     font-size: 60px;
     text-align: center;
 }
 
-.galeria1 {
+.galeria {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
     margin-bottom: 70px;
 }
 
