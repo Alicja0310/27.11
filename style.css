@@ -109,11 +109,6 @@
     font-size: 20px;
 }
 
-.zdjecie2 {
-    width: 100%;
-    height: 100%;
-}
-
 .zdjecie3 {
     background-image: url(./img/ts3/ingame_16x9.jpg);
     background-repeat: no-repeat;
@@ -151,14 +146,20 @@
     font-size: 20px;
 }
 
-.zdjecie4 {
-    width: 300px;
-    height: 200px;
+.ts1 {
+    margin-top: 90px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
 }
 
 .galeria1 {
     display: grid;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 70px;
 }
 
 img {
@@ -166,32 +167,3 @@ img {
     height: 100%;
 }
 
-.item1 {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-}
-
-.item2 {
-    grid-column: 3 / span 4;
-    grid-row: 1;
-}
-
-.item3 {
-    grid-column: 5 / span 6;
-    grid-row: 1;
-}
-
-.item4 {
-    grid-column: 5 / span 6;
-    grid-row: 2;
-}
-
-.item5 {
-    grid-column: 3 / span 4;
-    grid-row: 2;
-}
-
-.item6 {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-}
