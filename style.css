@@ -147,3 +147,17 @@ img {
     display: grid;
     grid-template-columns: 30% 70%;
 }
+
+.koniec {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 15px;
+    background-color: #525252c7;
+    border: 8px solid #1d1d1d;
+    color: white;
+}
+
+.tekst2{
+    color: white;
+}
